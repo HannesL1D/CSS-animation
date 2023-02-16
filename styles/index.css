@@ -1,0 +1,9 @@
+.fa-pepper-hot {
+    color: red;
+    animation: imgZoom 3.5s ease infinite;
+}
+
+@keyframes imgZoom {
+	from {transform: scale(1) rotate(0deg);}
+	to {transform: scale(1.1) rotate(360deg);}
+   }
