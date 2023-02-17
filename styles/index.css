@@ -1,3 +1,11 @@
+main {
+    width: 800px;
+}
+
+
+
+
+
 .fa-pepper-hot {
     color: red;
     animation: imgZoom 3.5s ease infinite;
