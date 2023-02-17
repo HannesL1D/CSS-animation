@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b353be6de9.js" crossorigin="anonymous"></script>
     <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/index.css" rel="stylesheet">
     <title>Document</title>
 </head>
+<body>
+
     <header>
         <nav class="nav__bar">
             <ul class="nav__list">
@@ -18,18 +24,44 @@
             </ul>
         </nav>
     </header>
-<body>
     <main>
-        <div class="container"></div>
-            <h1>
+        <div class="main-container">
+            <h1 class="heading animate__animated animate__fadeInDown animate__once">
                 <i class="fa-solid fa-pepper-hot"></i>
                 Chili pepper festival
                 <i class="fa-solid fa-pepper-hot"></i>
             </h1>
-            <h3>
-                Welcome to this years chili pepper festival. The perfect place to buy your favorite chili peppers, try some really hot chili peppers or just eat lots of tasty chili infused food.
+            <h3 class="main-info">
+                Welcome to this years chili pepper festival. The perfect place to buy your favorite chili peppers, try some really hot chili peppers or eat lots of tasty chili infused food. 
             </h3>
+            <div class="container">
+                <div class="card">
+                    <div class="card__content">
+                        <div class="card__img">
+                            <img src="images/Chilis.jpg" alt="chili peppers">
+                        </div>
+                        <p class="card__info">Wide selection!</p>
+                    </div> 
+                </div>
+                <div class="card animate__animated animate__pulse animate__infinite">
+                    <div class="card__content">
+                        <div class="card__img">
+                            <img src="images/fire.jpg" alt="fire">
+                        </div>
+                        <p class="card__info">Hot samples!</p>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="card__content">
+                        <div class="card__img">
+                            <img src="images/chili food.jpg" alt="chili">
+                        </div>
+                        <p class="card__info">Delicous food!</p>
+                    </div> 
+                </div>           
+            </div>    
             <button class="button" type="submit">BUY YOUR TICKET</button>
+        </div>
 
     </main>
 </body>
