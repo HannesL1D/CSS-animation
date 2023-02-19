@@ -99,12 +99,22 @@ img {
 }
 
 .button {
-    background-color: red;
+    background-color: rgb(174, 38, 7);
     border-radius: 10px;
-    height: 35px;
-    width: 25%;
+    height: 40px;
+    width: 30%;
     border: none;
-    margin-top: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    transition-duration: 0,6s;
+    background-color: gold;
 }
 
 
